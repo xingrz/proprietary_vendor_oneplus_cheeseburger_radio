@@ -1,9 +1,11 @@
+DEVICE := cheeseburger
+
 MODEM_IMAGE := firmware-update/NON-HLOS.bin
 
 TIMESTAMP := $(shell strings $(MODEM_IMAGE) | sed -n 's/.*"Time_Stamp": "\([^"]*\)"/\1/p')
 VERSION := $(shell echo $(TIMESTAMP) | sed 's/[ :-]*//g')
 
-TARGET := radio-$(VERSION).zip
+TARGET := RADIO-$(DEVICE)-$(VERSION).zip
 
 # Build
 # ==========
