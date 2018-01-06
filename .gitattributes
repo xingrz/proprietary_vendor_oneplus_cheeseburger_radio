@@ -1,0 +1,15 @@
+RADIO/static_nvbk.bin filter=lfs diff=lfs merge=lfs -text
+firmware-update/cmnlib.mbn filter=lfs diff=lfs merge=lfs -text
+firmware-update/devcfg.mbn filter=lfs diff=lfs merge=lfs -text
+firmware-update/tz.mbn filter=lfs diff=lfs merge=lfs -text
+firmware-update/abl.elf filter=lfs diff=lfs merge=lfs -text
+firmware-update/pmic.elf filter=lfs diff=lfs merge=lfs -text
+firmware-update/cmnlib64.mbn filter=lfs diff=lfs merge=lfs -text
+firmware-update/adspso.bin filter=lfs diff=lfs merge=lfs -text
+firmware-update/hyp.mbn filter=lfs diff=lfs merge=lfs -text
+firmware-update/keymaster.mbn filter=lfs diff=lfs merge=lfs -text
+firmware-update/rpm.mbn filter=lfs diff=lfs merge=lfs -text
+firmware-update/xbl.elf filter=lfs diff=lfs merge=lfs -text
+firmware-update/BTFM.bin filter=lfs diff=lfs merge=lfs -text
+firmware-update/logo.bin filter=lfs diff=lfs merge=lfs -text
+firmware-update/NON-HLOS.bin filter=lfs diff=lfs merge=lfs -text
